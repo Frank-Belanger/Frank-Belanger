@@ -24,7 +24,6 @@ def make_query():
     repositories(last: 3) {
       nodes {
         name
-        openGraphImageUrl
         url
         updatedAt
         description
@@ -47,7 +46,6 @@ def fetch_repos(oauth_token):
         repos.append(
             {
                 'name': repo["name"],
-                'img': repo["openGraphImageUrl"],
                 'url': repo["url"],
                 'description': repo["description"],
                 'updatedAt': repo["updatedAt"].split("T")[0]
@@ -59,8 +57,8 @@ def fetch_repos(oauth_token):
 if __name__ == "__main__":
     readme = root / "README.md"
     fetched = fetch_repos(TOKEN)
-    tableFirstPart = "| Name | Last Update | Description | Sneak Peek |\n"
-    tableScndPart = "|------|-------------|-------------|------------|\n"
+    tableFirstPart = "| Name | Last Update | Description |\n"
+    tableScndPart = "|------|-------------|-------------|\n"
     table = tableFirstPart + tableScndPart
     repos = "\n".join(
         [
@@ -72,10 +70,6 @@ if __name__ == "__main__":
             )
             + "{description} | ".format(
                 description=repo["description"]
-            )
-            + "<img src='{img}' width='200'> |"
-            .format(
-                img=repo["img"]
             )
             for repo in fetched
         ]
