@@ -1,14 +1,36 @@
-### Hi / Bonjour 👋
-#### For this readme, I will primarly use english as there is a greater proportion of people that will understand it.
+## Hi / Bonjour 👋
 
 ---
-#### How to reach me:
-Email: frank.belange@gmail.com
+
+I'm François, a full-stack dev from <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e8-1f1e6.png?v8" width="13"> Canada.
+The best way to reach me is on my email at frank.belange@gmail.com
+
+Here are a few things I code with:
+
+![React](https://img.shields.io/badge/react%20-%2320232a.svg?&style=flat&logo=react&logoColor=%2361DAFB)
+![CSS3](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=flat&logo=css3&logoColor=white)
+![CSS3](https://img.shields.io/badge/docker%20-%230db7ed.svg?&style=flat&logo=docker&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS%20-hotpink.svg?&style=flat&logo=SASS&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=flat&logo=html5&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![NPM](https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white)
 
 ---
-#### I’m currently working on:
+### **I’m currently working on:**
 ⚙ Github profile readme automation
 
 ---
-#### I’m currently learning:
+### **I’m currently learning:**
 🧠 Machine learning / AI
+
+---
+### **You should see my latest work**
+<!-- latest_repos starts -->
+...
+<!-- latest_repos ends -->
+
+---
+### **You can find me here:**
+[![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:frank.belange@gmail.com)
+[![](https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white)](https://github.com/Frank-Belanger)
+[![](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francois-belanger-8539a0154/)
