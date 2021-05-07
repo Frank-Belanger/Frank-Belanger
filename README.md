@@ -26,7 +26,9 @@ Here are a few things I code with:
 ---
 ### **You should see my latest work**
 <!-- latest_repos starts -->
-...
+| Name | Last Update | Description | Sneak Peek |
+|------|-------------|-------------|------------|
+| [Frank-Belanger](https://github.com/Frank-Belanger/Frank-Belanger) | 2021-05-07 | This repo is used for the auto generation of a readme that shows latest repos worked on. | <img src='https://avatars.githubusercontent.com/u/43759366?s=400&v=4' width='200'> |
 <!-- latest_repos ends -->
 
 ---
