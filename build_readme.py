@@ -75,6 +75,7 @@ if __name__ == "__main__":
         ]
     )
     chunk = table + repos
+    print(chunk)
     readme_contents = readme.open().read()
     rewritten = replace_chunk(readme_contents, "latest_repos", chunk)
     readme.open("w").write(rewritten)
