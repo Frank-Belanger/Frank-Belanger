@@ -7,8 +7,7 @@ import os
 root = pathlib.Path(__file__).parent.resolve()
 client = GraphqlClient(endpoint="https://api.github.com/graphql")
 
-#TOKEN = os.environ.get("GITHUB_TOKEN", "")
-TOKEN = "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"
+TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 def replace_chunk(content, marker, chunk):
     r = re.compile(
