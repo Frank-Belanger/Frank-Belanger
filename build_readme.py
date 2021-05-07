@@ -39,9 +39,9 @@ def fetch_repos(oauth_token):
         query=make_query(),
         headers={"Authorization": "Bearer {}".format(oauth_token)},
     )
-    #print()
-    #print(json.dumps(data, indent=4))
-    #print()
+    print()
+    print(json.dumps(data, indent=4))
+    print()
     for repo in data["data"]["viewer"]["repositories"]["nodes"]:
         repos.append(
             {
