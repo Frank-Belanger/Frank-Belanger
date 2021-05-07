@@ -21,7 +21,7 @@ def make_query():
     return """
 {
   viewer {
-    repositories(first: 10) {
+    repositories(last: 4) {
       nodes {
         name
         url
@@ -57,7 +57,6 @@ def fetch_repos(oauth_token):
 if __name__ == "__main__":
     readme = root / "README.md"
     fetched = fetch_repos(TOKEN)
-    print(fetched)
     tableFirstPart = "| Name | Last Update | Description |\n"
     tableScndPart = "|------|-------------|-------------|\n"
     table = tableFirstPart + tableScndPart
