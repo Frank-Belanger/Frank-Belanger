@@ -21,7 +21,7 @@ def make_query():
     return """
 {
   viewer {
-    repositories(first: 4, privacy: PUBLIC) {
+    repositories(last: 4, privacy: PUBLIC) {
       nodes {
         name
         url
