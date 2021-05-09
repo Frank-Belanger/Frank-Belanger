@@ -26,6 +26,7 @@ def make_query():
         name
         description
         updatedAt
+        url
       }
     }
   }
