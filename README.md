@@ -28,7 +28,7 @@ Here are a few things I code with:
 <!-- latest_repos starts -->
 | Name | Last Update | Description |
 |------|-------------|-------------|
-| [Frank-Belanger](https://github.com/Frank-Belanger/Frank-Belanger) | 2021-05-08 | This repo is used for the auto generation of a readme that shows latest repos worked on. | 
+| [Frank-Belanger](https://github.com/Frank-Belanger/Frank-Belanger) | 2021-05-09 | This repo is used for the auto generation of a readme that shows latest repos worked on. | 
 <!-- latest_repos ends -->
 
 ---
