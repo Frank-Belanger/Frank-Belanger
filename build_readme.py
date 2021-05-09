@@ -21,12 +21,11 @@ def make_query():
     return """
 {
   viewer {
-    repositories(last: 4, privacy: PUBLIC) {
+    repositories(last: 5, privacy: PUBLIC, orderBy: {direction: DESC, field: UPDATED_AT}) {
       nodes {
         name
-        url
-        updatedAt
         description
+        updatedAt
       }
     }
   }
