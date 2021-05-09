@@ -1,11 +1,11 @@
-from python_graphql_client import GraphqlClient
+import requests
 import json
 import pathlib
 import re
 import os
 
 root = pathlib.Path(__file__).parent.resolve()
-client = GraphqlClient(endpoint="https://api.github.com/graphql")
+#client = GraphqlClient(endpoint="https://api.github.com/graphql")
 
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
@@ -16,22 +16,6 @@ def replace_chunk(content, marker, chunk):
     )
     chunk = "<!-- {} starts -->\n{}\n<!-- {} ends -->".format(marker, chunk, marker)
     return r.sub(chunk, content)
-
-def make_query():
-    return """
-{
-  viewer {
-    repositories(last: 5, privacy: PUBLIC, orderBy: {direction: DESC, field: UPDATED_AT}) {
-      nodes {
-        name
-        description
-        updatedAt
-        url
-      }
-    }
-  }
-}
-"""
 
 def fetch_repos(oauth_token):
     repos = []
@@ -56,7 +40,10 @@ def fetch_repos(oauth_token):
 
 if __name__ == "__main__":
     readme = root / "README.md"
-    fetched = fetch_repos(TOKEN)
+    endpoint = "https://api.github.com/users/Frank-Belanger/repos"
+    headers = {"Authorization": "Bearer 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"}
+    fetched = requests.get(endpoint, headers=headers).json()
+    #fetched = fetch_repos(TOKEN)
     tableFirstPart = "| Name | Last Update | Description |\n"
     tableScndPart = "|------|-------------|-------------|\n"
     table = tableFirstPart + tableScndPart
@@ -65,8 +52,8 @@ if __name__ == "__main__":
             "| [{name}]({url}) | {updatedAt} | "
             .format(
                 name=repo["name"],
-                url=repo["url"],
-                updatedAt=repo["updatedAt"]
+                url=repo["html_url"],
+                updatedAt=repo["updated_at"].split("T")[0]
             )
             + "{description} | ".format(
                 description=repo["description"]
