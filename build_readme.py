@@ -5,8 +5,6 @@ import re
 import os
 
 root = pathlib.Path(__file__).parent.resolve()
-#client = GraphqlClient(endpoint="https://api.github.com/graphql")
-
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 def replace_chunk(content, marker, chunk):
@@ -17,33 +15,11 @@ def replace_chunk(content, marker, chunk):
     chunk = "<!-- {} starts -->\n{}\n<!-- {} ends -->".format(marker, chunk, marker)
     return r.sub(chunk, content)
 
-def fetch_repos(oauth_token):
-    repos = []
-    data = client.execute(
-        query=make_query(),
-        headers={"Authorization": "Bearer {}".format(oauth_token)},
-    )
-    print()
-    print(json.dumps(data, indent=4))
-    print()
-    for repo in data["data"]["viewer"]["repositories"]["nodes"]:
-        repos.append(
-            {
-                'name': repo["name"],
-                'url': repo["url"],
-                'description': repo["description"],
-                'updatedAt': repo["updatedAt"].split("T")[0]
-            }
-        )
-
-    return repos
-
 if __name__ == "__main__":
     readme = root / "README.md"
     endpoint = "https://api.github.com/users/Frank-Belanger/repos"
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer {}".format(TOKEN)}
     fetched = requests.get(endpoint, headers=headers).json()
-    #fetched = fetch_repos(TOKEN)
     tableFirstPart = "| Name | Last Update | Description |\n"
     tableScndPart = "|------|-------------|-------------|\n"
     table = tableFirstPart + tableScndPart
