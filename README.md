@@ -42,7 +42,7 @@ Here are a few things I code with:
 ------------
 <p align="center">
 <!-- timestamp starts -->
-This <i>README</i> was last updated Monday 10 of May 2021, at 09:29 EST
+This <i>README</i> was last updated Monday 10 of May 2021, at 09:40 EST
 <!-- timestamp ends -->
 [![Build README](https://github.com/Frank-Belanger/Frank-Belanger/actions/workflows/build.yml/badge.svg)](https://github.com/Frank-Belanger/Frank-Belanger/actions/workflows/build.yml)
 </p>
