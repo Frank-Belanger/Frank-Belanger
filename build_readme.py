@@ -41,6 +41,8 @@ if __name__ == "__main__":
     chunk = table + repos
     readme_contents = readme.open().read()
     rewritten = replace_chunk(readme_contents, "latest_repos", chunk)
-    timestamp = "This <i>README</i> was last updated {}".format(time.strftime("%A %d of %b %Y, at %H:%M"))
+    os.environ["TZ"] = "America/New_York"
+    time.tzset()
+    timestamp = "This <i>README</i> was last updated {}".format(time.strftime("%A %d of %b %Y, at %H:%M EST"))
     rewritten = replace_chunk(rewritten, "timestamp", timestamp)
     readme.open("w").write(rewritten)
