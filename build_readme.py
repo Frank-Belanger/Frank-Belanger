@@ -1,3 +1,4 @@
+import time
 import requests
 import json
 import pathlib
@@ -5,7 +6,8 @@ import re
 import os
 
 root = pathlib.Path(__file__).parent.resolve()
-TOKEN = os.environ.get("GITHUB_TOKEN", "")
+#TOKEN = os.environ.get("GITHUB_TOKEN", "")
+TOKEN = "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"
 
 def replace_chunk(content, marker, chunk):
     r = re.compile(
@@ -40,4 +42,6 @@ if __name__ == "__main__":
     chunk = table + repos
     readme_contents = readme.open().read()
     rewritten = replace_chunk(readme_contents, "latest_repos", chunk)
+    timestamp = "This <i>README</i> was last updated {}".format(time.strftime("%A %d of %b %Y, at %H:%M"))
+    rewritten = replace_chunk(rewritten, "timestamp", timestamp)
     readme.open("w").write(rewritten)

@@ -15,11 +15,11 @@ Here are a few things I code with:
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![NPM](https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white)
 
----
+
 ### **I’m currently working on:**
 ⚙ Github profile readme automation
 
----
+
 ### **I’m currently learning:**
 🧠 Machine learning / AI
 
@@ -33,8 +33,15 @@ Here are a few things I code with:
 | [music-recommender](https://github.com/Frank-Belanger/music-recommender) | 2021-05-07 | Small app making use of spotify's API to browse and play music. | 
 <!-- latest_repos ends -->
 
----
+
 ### **You can find me here:**
 [![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:frank.belange@gmail.com)
 [![](https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white)](https://github.com/Frank-Belanger)
 [![](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francois-belanger-8539a0154/)
+
+------------
+<p align="center">
+<!-- timestamp starts -->
+This <i>README</i> was last updated Sunday 09 of May 2021, at 21:39
+<!-- timestamp ends -->
+</p>
