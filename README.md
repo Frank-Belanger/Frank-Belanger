@@ -42,6 +42,6 @@ Here are a few things I code with:
 ------------
 <p align="center">
 <!-- timestamp starts -->
-This <i>README</i> was last updated Monday 10 of May 2021, at 12:12
+This <i>README</i> was last updated Monday 10 of May 2021, at 09:29 EST
 <!-- timestamp ends -->
 </p>
