@@ -6,8 +6,7 @@ import re
 import os
 
 root = pathlib.Path(__file__).parent.resolve()
-#TOKEN = os.environ.get("GITHUB_TOKEN", "")
-TOKEN = "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"
+TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 def replace_chunk(content, marker, chunk):
     r = re.compile(
