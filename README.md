@@ -28,7 +28,7 @@ Here are a few things I code with:
 <!-- latest_repos starts -->
 | Name | Last Update | Description |
 |------|-------------|-------------|
-| [Frank-Belanger](https://github.com/Frank-Belanger/Frank-Belanger) | 2021-05-10 | This repo is used for the auto generation of a readme that shows latest repos worked on. | 
+| [Frank-Belanger](https://github.com/Frank-Belanger/Frank-Belanger) | 2021-05-11 | This repo is used for the auto generation of a readme that shows latest repos worked on. | 
 | [Frank-Belanger.github.io](https://github.com/Frank-Belanger/Frank-Belanger.github.io) | 2021-05-06 | Github page used as a personal portfolio website | 
 | [music-recommender](https://github.com/Frank-Belanger/music-recommender) | 2021-05-07 | Small app making use of spotify's API to browse and play music. | 
 <!-- latest_repos ends -->
@@ -42,7 +42,7 @@ Here are a few things I code with:
 ------------
 <p align="center">
 <!-- timestamp starts -->
-This <i>README</i> was last updated Monday 10 of May 2021, at 20:26 EST
+This <i>README</i> was last updated Tuesday 11 of May 2021, at 08:12 EST
 <!-- timestamp ends -->
 <img alt="Build README" src="https://github.com/Frank-Belanger/Frank-Belanger/actions/workflows/build.yml/badge.svg" align="center" />
 </p>
