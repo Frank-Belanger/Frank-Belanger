@@ -1,1 +1,1 @@
-python-graphql-client==latest
+python-graphql-client==0.4.3
