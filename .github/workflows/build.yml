@@ -16,6 +16,10 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
+    - name: Install libpython3.x-distutils
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y python3.x-distutils
     - name: Install older version of pip
       run: |
         python -m pip install pip==20.2.4
