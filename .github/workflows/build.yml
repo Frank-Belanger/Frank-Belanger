@@ -15,7 +15,9 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'
+        python-version: '3.12'
+    - name: Check Python Version
+      run: python --version
     - name: Install libpython3-distutils
       run: |
         sudo apt-get update
@@ -23,6 +25,10 @@ jobs:
     - name: Install older version of pip
       run: |
         python -m pip install pip==20.2.4
+    - name: Create and activate a virtual environment
+      run: |
+        python -m venv venv
+        source venv/bin/activate
     - name: Install dependencies
       run: |
         python -m pip install -r requirements.txt
