@@ -52,7 +52,7 @@ Here are a few things I code with or use:
 ------------
 <p align="center">
 <!-- timestamp starts -->
-This <i>README</i> was last updated Friday 05 of Jan 2024, at 19:45 EST
+This <i>README</i> was last updated Saturday 06 of Jan 2024, at 07:16 EST
 <!-- timestamp ends -->
 <img alt="Build README" src="https://github.com/Frank-Belanger/Frank-Belanger/actions/workflows/build.yml/badge.svg" align="center" />
 </p>
