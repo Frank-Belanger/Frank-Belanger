@@ -27,11 +27,11 @@ Here are a few things I code with or use:
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=red)
 
 ### **I’m currently working on:**
-⚙ Github profile readme automation
+A small app to fetch boardgame prices on my wishlist!
 
 
 ### **I’m currently learning:**
-🧠 Machine learning / AI
+⚙ Devops and automation
 
 ---
 ### **You should see my latest work**
