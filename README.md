@@ -52,7 +52,7 @@ A small app to fetch boardgame prices on my wishlist!
 ------------
 <p align="center">
 <!-- timestamp starts -->
-This <i>README</i> was last updated Sunday 16 of Jun 2024, at 21:12 EST
+This <i>README</i> was last updated Monday 17 of Jun 2024, at 08:20 EST
 <!-- timestamp ends -->
 <img alt="Build README" src="https://github.com/Frank-Belanger/Frank-Belanger/actions/workflows/build.yml/badge.svg" align="center" />
 </p>
