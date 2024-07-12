@@ -38,7 +38,7 @@ A small app to fetch boardgame prices on my wishlist!
 <!-- latest_repos starts -->
 | Name | Last Update | Description |
 |------|-------------|-------------|
-| [Frank-Belanger](https://github.com/Frank-Belanger/Frank-Belanger) | 2024-07-11 | This repo is used for the auto generation of a readme that shows latest repos worked on. | 
+| [Frank-Belanger](https://github.com/Frank-Belanger/Frank-Belanger) | 2024-07-12 | This repo is used for the auto generation of a readme that shows latest repos worked on. | 
 | [Frank-Belanger.github.io](https://github.com/Frank-Belanger/Frank-Belanger.github.io) | 2021-10-26 | Github page used as a personal portfolio website | 
 | [music-recommender](https://github.com/Frank-Belanger/music-recommender) | 2022-08-08 | Small app making use of spotify's API to browse and play music. | 
 <!-- latest_repos ends -->
@@ -52,7 +52,7 @@ A small app to fetch boardgame prices on my wishlist!
 ------------
 <p align="center">
 <!-- timestamp starts -->
-This <i>README</i> was last updated Thursday 11 of Jul 2024, at 20:51 EST
+This <i>README</i> was last updated Friday 12 of Jul 2024, at 08:21 EST
 <!-- timestamp ends -->
 <img alt="Build README" src="https://github.com/Frank-Belanger/Frank-Belanger/actions/workflows/build.yml/badge.svg" align="center" />
 </p>
