@@ -4,16 +4,16 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '0 */12 * * *'
+    - cron: '0 0 * * *'  # Runs once a day at midnight
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.9'
     - name: Check Python Version
