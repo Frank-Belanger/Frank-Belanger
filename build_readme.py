@@ -27,8 +27,7 @@ if __name__ == "__main__":
     tableFirstPart = "| Name | Last Update | Description |\n"
     tableScndPart = "|------|-------------|-------------|\n"
     table = tableFirstPart + tableScndPart
-    for repo in fetched:
-        print(repo)
+    print(len(fetched))
     repos = "\n".join(
         [
             "| [{name}]({url}) | {updatedAt} | "
