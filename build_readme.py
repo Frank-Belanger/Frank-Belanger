@@ -21,10 +21,11 @@ if __name__ == "__main__":
     endpoint = "https://api.github.com/users/Frank-Belanger/repos"
     headers = {"Authorization": "Bearer {}".format(TOKEN)}
     fetched = requests.get(endpoint, headers=headers).json()
-    print(fetched)
     tableFirstPart = "| Name | Last Update | Description |\n"
     tableScndPart = "|------|-------------|-------------|\n"
     table = tableFirstPart + tableScndPart
+    for repo in fetched:
+        print(repo)
     repos = "\n".join(
         [
             "| [{name}]({url}) | {updatedAt} | "
