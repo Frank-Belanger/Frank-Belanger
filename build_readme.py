@@ -20,9 +20,10 @@ if __name__ == "__main__":
     readme = root / "README.md"
     endpoint = "https://api.github.com/users/Frank-Belanger/repos?visibility=all&per_page=100"
     headers = {"Authorization": "Bearer {}".format(TOKEN)}
-    fetched = requests.get(endpoint, headers=headers).json()
-    if fetched.status_code != 200:
-        raise Exception(f"GitHub API error: {fetched.status_code} {fetched.text}")
+    response = requests.get(endpoint, headers=headers)
+    if response.status_code != 200:
+        raise Exception(f"GitHub API error: {response.status_code} {response.text}")
+    fetched = response.json()
     tableFirstPart = "| Name | Last Update | Description |\n"
     tableScndPart = "|------|-------------|-------------|\n"
     table = tableFirstPart + tableScndPart
