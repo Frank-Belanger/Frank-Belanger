@@ -18,7 +18,7 @@ def replace_chunk(content, marker, chunk):
 
 if __name__ == "__main__":
     readme = root / "README.md"
-    endpoint = "https://api.github.com/users/Frank-Belanger/repos?visibility=all&per_page=100"
+    endpoint = "https://api.github.com/user/repos?visibility=all&per_page=100"
     headers = {"Authorization": "Bearer {}".format(TOKEN)}
     response = requests.get(endpoint, headers=headers)
     if response.status_code != 200:
