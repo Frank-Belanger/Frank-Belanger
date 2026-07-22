@@ -38,11 +38,11 @@ A small app to fetch boardgame prices on my wishlist!
 <!-- latest_repos starts -->
 | Name | Last Update | Description |
 |------|-------------|-------------|
+| [BggMathTrades](https://github.com/Frank-Belanger/BggMathTrades) | 2026-07-21 | RSS feed of Bgg news / Qc Math trades thread | 
 | [BggPriceFetcher](https://github.com/Frank-Belanger/BggPriceFetcher) | 2026-04-30 | A small container that runs a python script to get your boardgames wishlist | 
-| [BggRss](https://github.com/Frank-Belanger/BggRss) | 2025-10-16 | RSS feed of Bgg news / Qc Math trades thread | 
 | [BggStats](https://github.com/Frank-Belanger/BggStats) | 2025-08-22 | Gets the statistics of the 10k first ranked board games on board game geek | 
 | [Deluge-Cleaner](https://github.com/Frank-Belanger/Deluge-Cleaner) | 2025-12-22 | None | 
-| [Frank-Belanger](https://github.com/Frank-Belanger/Frank-Belanger) | 2026-07-20 | This repo is used for the auto generation of a readme that shows latest repos worked on. | 
+| [Frank-Belanger](https://github.com/Frank-Belanger/Frank-Belanger) | 2026-07-21 | This repo is used for the auto generation of a readme that shows latest repos worked on. | 
 | [Frank-Belanger.github.io](https://github.com/Frank-Belanger/Frank-Belanger.github.io) | 2021-10-26 | Github page used as a personal portfolio website | 
 | [music-recommender](https://github.com/Frank-Belanger/music-recommender) | 2022-08-08 | Small app making use of spotify's API to browse and play music. | 
 | [Notes](https://github.com/Frank-Belanger/Notes) | 2024-05-07 | None | 
@@ -58,7 +58,7 @@ A small app to fetch boardgame prices on my wishlist!
 ------------
 <p align="center">
 <!-- timestamp starts -->
-This <i>README</i> was last updated Monday 20 of Jul 2026, at 21:20 EST
+This <i>README</i> was last updated Tuesday 21 of Jul 2026, at 21:18 EST
 <!-- timestamp ends -->
 <img alt="Build README" src="https://github.com/Frank-Belanger/Frank-Belanger/actions/workflows/build.yml/badge.svg" align="center" />
 </p>
